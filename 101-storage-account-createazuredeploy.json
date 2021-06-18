@@ -24,7 +24,7 @@
     }
   },
   "variables": {
-    "storageAccountName": "[concat('storagetyrone', uniquestring(resourceGroup().id))]"
+    "storageAccountName": "[concat('stsample', uniquestring(resourceGroup().id))]"
   },
   "resources": [
     {
